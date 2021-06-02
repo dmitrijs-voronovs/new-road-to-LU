@@ -1,12 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { usePath } from "../utils/usePath";
 
 // eslint-disable-next-line react/prop-types
 export const ProjectCard = ({ className, path = "/", text, heading, src }) => {
-  const { code } = usePath();
   return (
-    <Link href={code + path}>
+    <Link href={path}>
       <div
         className={`hover:scale-105 transform transition-transform duration-500 cursor-pointer flex flex-col w-full p-10 mb-5 rounded-xl ${className}`}
       >

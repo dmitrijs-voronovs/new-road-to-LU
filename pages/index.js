@@ -5,15 +5,15 @@ import { ProjectCard } from "@components/ProjectCard";
 /** eslint-ignore react/react-in-jsx-scope */
 export default function Home() {
   return (
-    <div className="container">
+    <div className="">
       <Head>
         <title>New road to LU</title>
       </Head>
 
-      <div className="flex flex-col md:flex-row">
-        <div className="p-5 text-center">
-          <h1 className="text-p1 mb-8">
-            Мой новый путь от дома до Латвийского университета
+      <div className="flex flex-col md:flex-row w-full max-w-screen-2xl md:pb-5 mx-auto">
+        <div className="p-5 text-center m-auto">
+          <h1 className="text-p1 pb-8 md:text-4xl md:px-5 lowercase">
+            Mans jaunais ceļš no mājām uz Latvijas Universitāti
           </h1>
         </div>
         <div className="relative w-full pb-5">
@@ -21,44 +21,87 @@ export default function Home() {
           <img src="/hp@3x.png" />
         </div>
       </div>
-      <div className="text flex flex-col space-y-10 my-10">
-        <p>
-          За 2 года ежедневного посещения университета я исходил не одну пару
-          туфель. Я основательно подготовился и к третьему году, тщательно
-          подобрал новые высокопрочные туфли, но{" "}
-          <span className="italic text-p2">
-            на этот раз они мне не пригодились…
-          </span>
-        </p>
-        <p className="text-p4 text-2xl">WHY?</p>
-        <p className="">
-          Третий год стал переломным моментом в моём бесконечном путешествии от
-          дома до университета и от университета до дома. Ковид заставил меня
-          задуматься не только над тем, ходить мне в университет или нет, но и
-          над более глобальным вопросом - есть ли смысл выходить из дома?
-        </p>
-        <p>
-          Я полностью переосмыслил последние пару лет своей жизни , конкретно
-          аспект передвижения от дома до университета, и решил поделиться своей
-          новой, абсолютно уникальной стратегией передвижения.
-        </p>
-        <p>
-          Он приносит мне неимоверную радость и нескончаемый заряд энергии на
-          весь день, но и имеет свои недостатки. Встречайте - Мой новый путь от
-          дома до Латвийского университета!
-        </p>
-      </div>
-      <div className="grid">
-        <ProjectCard
-          text="Cool"
-          heading="Fresh look"
-          src="/det1@3x.png"
-          path="/step/1"
-        />
-        <ProjectCard text="Cool" heading="Fresh look" src="/det2@3x.png" />
-        <ProjectCard text="Cool" heading="Fresh look" src="/det3@3x.png" />
-        <ProjectCard text="Cool" heading="Fresh look" src="/det4@3x.png" />
-        <ProjectCard text="Cool" heading="Fresh look" src="/det5@3x.png" />
+
+      {/* TEXT AND OTHER SECTION */}
+      <div className="md:mt-20 md:max-w-screen-sm md:mx-auto">
+        <div className="text-justify flex flex-col space-y-10 my-10">
+          <p>
+            2 gadus katru dienu apmeklējot universitāti, es izstaigāju vairāk
+            nekā vienu apavu pāri. Es pamatīgi gatavojos trešajam gadam, rūpīgi
+            atlasīju jaunus augstas stiprības apavus, taču
+            <span className="italic text-p2">
+              šoreiz tie man nebija noderīgi ...
+            </span>
+          </p>
+          <p className="">
+            Trešais gads bija ļoti svarīgs manā bezgalīgajā ceļojumā no mājām uz
+            universitāti un no universitātes uz mājām. Kovīds man lika domāt ne
+            tikai par to, vai iet uz universitāti, vai ne, bet arī par globālāku
+            jautājumu:
+          </p>
+          <p className="text-p4 text-2xl text-center !mt-20 !mb-16">
+            vai ir kāda jēga pamest mājas?
+          </p>
+          <p>
+            Es pilnībā pārdomāju pēdējos pāris savas dzīves gadus, īpaši
+            pārvietošanās aspektu no mājām uz universitāti, un nolēmu padalīties
+            ar savu jauno, pilnīgi unikālu kustības stratēģiju.
+          </p>
+          <p>
+            Tas man sagādā neticamu prieku un bezgalīgu enerģiju visai dienai,
+            taču tam ir arī savi mīnusi. Iepazīstieties - Mans jaunais ceļš no
+            mājām uz Latvijas Universitāti!
+          </p>
+        </div>
+        <div className="grid">
+          <ProjectCard
+            className="bg-p1 bg-opacity-10"
+            text="Cool"
+            heading="Fresh look"
+            src="/det1@3x.png"
+            path="/step/1"
+          />
+          <ProjectCard
+            text="Cool"
+            heading="Fresh look"
+            src="/det2@3x.png"
+            path="/step/2"
+          />
+          <ProjectCard
+            className="bg-p2 bg-opacity-10"
+            text="Cool"
+            heading="Fresh look"
+            src="/det3@3x.png"
+            path="/step/3"
+          />
+          <ProjectCard
+            text="Cool"
+            heading="Fresh look"
+            src="/det4@3x.png"
+            path="/step/4"
+          />
+          <ProjectCard
+            className="bg-p3 bg-opacity-10"
+            text="Cool"
+            heading="Fresh look"
+            src="/det5@3x.png"
+            path="/step/5"
+          />
+          <ProjectCard
+            text="Cool"
+            heading="Fresh look"
+            src="/det6@3x.png"
+            path="/step/6"
+          />
+          <ProjectCard
+            className="bg-p6 bg-opacity-10"
+            text="Cool"
+            heading="Fresh look"
+            src="/det7@3x.png"
+            path="/step/7"
+          />
+        </div>
+        <p className="text-p4 text-2xl text-center m-16">VISS!</p>
       </div>
     </div>
   );

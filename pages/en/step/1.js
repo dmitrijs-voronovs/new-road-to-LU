@@ -5,7 +5,7 @@ import { ProjectCard } from "@components/ProjectCard";
 /** eslint-ignore react/react-in-jsx-scope */
 export default function EnStep1() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>New road to LU</title>
       </Head>

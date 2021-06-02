@@ -19,8 +19,6 @@ export const usePath = () => {
   const currentLink = convertLink(asPath);
   const homepageLink = isEng ? "/en/" : "/";
 
-  console.log({ asPath, currentLink, homepageLink });
-
   return {
     currentLink,
     homepageLink,

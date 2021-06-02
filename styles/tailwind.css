@@ -40,6 +40,13 @@
         @apply text-sm;
     }
 
+    @font-face {
+        font-family: SignPainter;
+        font-weight: 100;
+        src: url(/SignPainter-HouseScript.ttf);
+        font-display: swap;
+    }
+
 }
 
 @tailwind components;

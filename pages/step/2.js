@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ProjectCard } from "@components/ProjectCard";
 
 /** eslint-ignore react/react-in-jsx-scope */
-export default function Step1() {
+export default function Step2() {
   return (
     <div>
       <Head>
@@ -12,7 +12,7 @@ export default function Step1() {
 
       <div className="relative w-full max-w-screen-lg md:pb-5 mx-auto my-10 md:my-20">
         {/* <Image src="/hp@3x.png" layout="fill" /> */}
-        <img src="/il1@3x.png" />
+        <img src="/il2@3x.png" />
       </div>
       <div className="p-5 text-center">
         <h1 className="text-p1 mb-8">
@@ -52,10 +52,11 @@ export default function Step1() {
         </div>
         <div className="grid">
           <ProjectCard
+            className="bg-p2 bg-opacity-10"
             text="Cool"
             heading="Fresh look"
-            src="/det2@3x.png"
-            path="/step/2"
+            src="/det3@3x.png"
+            path="/step/3"
           />
         </div>
       </div>

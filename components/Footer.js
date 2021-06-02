@@ -1,13 +1,15 @@
 import React from "react";
+import { usePath } from "../utils/usePath";
 
-export const Footer = () => (
-  <footer>
-    <a
-      href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Created by Dmitrijs Voronovs | dv18034
-    </a>
-  </footer>
-);
+export const Footer = () => {
+  const { isEng } = usePath();
+  return (
+    <footer className="text-center bg-p5 bg-opacity-20 p-5">
+      <p className="md:max-w-screen-sm md:mx-auto">
+        {isEng
+          ? "Created by Dmitrijs Voronovs | dv18034"
+          : "Izveidoja Dmitrijs Voronovs | dv18034"}
+      </p>
+    </footer>
+  );
+};

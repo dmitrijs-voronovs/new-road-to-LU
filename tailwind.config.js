@@ -12,6 +12,9 @@ module.exports = {
         p6: "#F9F871",
       },
     },
+    fontFamily: {
+      cool: ["SignPainter", "Roboto", "Arial"],
+    },
   },
   variants: {},
   plugins: [],

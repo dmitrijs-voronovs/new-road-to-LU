@@ -10,9 +10,9 @@ export const Header = () => {
       <div className="flex justify-between p-5 md:max-w-screen-sm md:mx-auto">
         <Link href={homepageLink ?? "/"}>
           <img
-            src="/SVG/logo1.svg"
+            src="/logo2@3x.png"
             alt="DV Logo"
-            className="w-10 h-10 cursor-pointer"
+            className="h-12 cursor-pointer"
           />
         </Link>
         <Link href={currentLink ?? "/"}>

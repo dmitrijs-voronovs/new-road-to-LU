@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ProjectCard } from "@components/ProjectCard";
 
 /** eslint-ignore react/react-in-jsx-scope */
-export default function Home() {
+export default function Step1() {
   return (
     <div className="container">
       <Head>
@@ -30,7 +30,6 @@ export default function Home() {
             на этот раз они мне не пригодились…
           </span>
         </p>
-        <p className="text-p4 text-2xl">WHY?</p>
         <p className="">
           Третий год стал переломным моментом в моём бесконечном путешествии от
           дома до университета и от университета до дома. Ковид заставил меня

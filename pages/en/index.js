@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ProjectCard } from "@components/ProjectCard";
 
 /** eslint-ignore react/react-in-jsx-scope */
-export default function Home() {
+export default function EnHome() {
   return (
     <div className="container">
       <Head>

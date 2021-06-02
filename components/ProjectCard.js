@@ -8,7 +8,7 @@ export const ProjectCard = ({ className, path = "/", text, heading, src }) => {
   return (
     <Link href={code + path}>
       <div
-        className={`hover:scale-110 transform transition-transform duration-500 cursor-pointer flex flex-col w-full p-10 mb-5 rounded-xl ${className}`}
+        className={`hover:scale-105 transform transition-transform duration-500 cursor-pointer flex flex-col w-full p-10 mb-5 rounded-xl ${className}`}
       >
         <div className=" h-[300px] mx-auto">
           <img src={src} className="h-full object-scale-down" alt="text" />

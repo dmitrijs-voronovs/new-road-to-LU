@@ -21,7 +21,6 @@ export default function Step4() {
       </Head>
 
       <div className="relative w-full max-w-screen-lg md:pb-5 mx-auto my-10 md:my-20">
-        {/* <Image src="/hp@3x.png" layout="fill" /> */}
         <img src="/il4@3x.png" />
       </div>
       <div className="p-5 text-center">

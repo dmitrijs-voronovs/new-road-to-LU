@@ -27,7 +27,6 @@ export default function Home() {
           </h1>
         </div>
         <div className="relative w-full pb-5">
-          {/* <Image src="/hp@3x.png" layout="fill" /> */}
           <img src="/hp@3x.png" />
         </div>
       </div>

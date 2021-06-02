@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+// import Image from "next/image";
 
 /** eslint-ignore react/react-in-jsx-scope */
 export default function Home() {
@@ -7,12 +8,44 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>New road to LU</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="title ">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+      <div className="flex flex-col md:flex-row">
+        <div className="p-10 text-center">
+          <h1 className="text-p1">
+            Мой новый путь от дома до Латвийского университета
+          </h1>
+          <h2 className="text-xl pt-5 pb-5">Discover the website</h2>
+        </div>
+        <div className="relative w-screen h-">
+          {/* <Image src="/hp@3x.png" layout="fill" /> */}
+          <img src="/hp@3x.png" />
+        </div>
+      </div>
+      <div className="text">
+        <p>
+          За 2 года ежедневного посещения университета я исходил не одну пару
+          туфель. Я основательно подготовился и к третьему году, тщательно
+          подобрал новые высокопрочные туфли, но на этот раз они мне не
+          пригодились…
+        </p>
+        <p>
+          Третий год стал переломным моментом в моём бесконечном путешествии от
+          дома до университета и от университета до дома. Ковид заставил меня
+          задуматься не только над тем, ходить мне в университет или нет, но и
+          над более глобальным вопросом - есть ли смысл выходить из дома?
+        </p>
+        <p>
+          Я полностью переосмыслил последние пару лет своей жизни, конкретно
+          аспект передвижения от дома до университета, и решил поделиться своей
+          новой, абсолютно уникальной стратегией передвижения.
+        </p>
+        <p>
+          Он приносит мне неимоверную радость и нескончаемый заряд энергии на
+          весь день, но и имеет свои недостатки. Встречайте - Мой новый путь от
+          дома до Латвийского университета!
+        </p>
+      </div>
     </div>
   );
 }

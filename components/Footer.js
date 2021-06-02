@@ -7,8 +7,7 @@ export const Footer = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      Created by Dmitrijs Voronovs{" "}
-      <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+      Created by Dmitrijs Voronovs | dv18034
     </a>
   </footer>
 );

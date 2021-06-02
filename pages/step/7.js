@@ -19,7 +19,7 @@ export default function Step7() {
           Мой новый путь от дома до Латвийского университета
         </h1>
       </div>
-      {/* TEXT AND OTHER SECTION */}
+      {/* TEXT AND OTHER SECTIONS */}
       <div className="md:mt-20 md:max-w-screen-sm md:mx-auto">
         <div className="text-justify flex flex-col space-y-10 my-10">
           <p>

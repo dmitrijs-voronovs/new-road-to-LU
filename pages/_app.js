@@ -15,6 +15,11 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <title>Dmitrijs Voronovs - new road to LU</title>
         <link rel="icon" href="/logo2@3x.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main className="my-5 mx-5">

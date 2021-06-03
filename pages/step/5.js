@@ -33,7 +33,7 @@ export default function Step5() {
           <p>{t("step5.text.1")}</p>
           <p>{t("step5.text.2")}</p>
           <p>{t("step5.text.3")}</p>
-          <p className="text-p4 text-2xl text-center !mt-20 !mb-16">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-20 !mb-16">
             {t("step5.text.4")}
           </p>
         </div>

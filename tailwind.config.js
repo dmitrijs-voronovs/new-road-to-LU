@@ -13,7 +13,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      cool: ["SignPainter", "Roboto", "Arial"],
+      krona: ["Krona One", "Roboto", "Arial"],
+      montserrat: ["Montserrat", "sans-serif"],
     },
   },
   variants: {},

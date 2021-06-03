@@ -31,7 +31,7 @@ export default function Step1() {
           <p>{t("step1.text.1")}</p>
           <p>{t("step1.text.2")}</p>
           <p>{t("step1.text.3")}</p>
-          <p className="text-p4 text-2xl text-center !mt-16 !mb-6">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-16 !mb-6">
             <p>{t("step1.text.4")}</p>
           </p>
         </div>

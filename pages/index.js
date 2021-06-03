@@ -35,7 +35,7 @@ export default function Home() {
         <div className="text-justify flex flex-col space-y-10 my-10">
           <p>{t("index.text.1")}</p>
           <p>{t("index.text.2")}</p>
-          <p className="text-p4 text-2xl text-center !mt-20 !mb-16">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-20 !mb-16">
             {t("index.text.3")}
           </p>
           <p>{t("index.text.4")}</p>
@@ -89,7 +89,9 @@ export default function Home() {
             path="/step/7"
           />
         </div>
-        <p className="text-p4 text-2xl text-center m-16 mt-8">{t("viss")}</p>
+        <p className="font-montserrat font-extrabold text-p4 text-2xl text-center m-16 mt-8">
+          {t("viss")}
+        </p>
       </div>
     </div>
   );

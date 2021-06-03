@@ -31,7 +31,7 @@ export default function Step2() {
         <div className="text-justify flex flex-col space-y-10 my-10">
           <p>{t("step2.text.1")}</p>
           <p>{t("step2.text.2")}</p>
-          <p className="text-p4 text-2xl text-center !mt-20 !mb-6">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-20 !mb-6">
             <p>{t("step2.text.3")}</p>
           </p>
           <p>{t("step2.text.4")}</p>

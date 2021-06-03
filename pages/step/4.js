@@ -31,7 +31,7 @@ export default function Step4() {
       <div className="md:mt-20 mb-4 md:max-w-screen-sm md:mx-auto">
         <div className="text-justify flex flex-col space-y-10 my-10">
           <p>{t("step4.text.1")}</p>
-          <p className="text-p4 text-2xl text-center !mt-20 !mb-16">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-20 !mb-16">
             {t("step4.text.2")}
           </p>
           <p>{t("step4.text.3")}</p>

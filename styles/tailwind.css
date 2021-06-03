@@ -16,15 +16,15 @@
     }
 
     h1 {
-        @apply text-3xl;
+        @apply text-3xl font-krona;
     }
 
     h2 {
-        @apply text-2xl;
+        @apply text-2xl font-montserrat;
     }
 
     h3 {
-        @apply text-xl;
+        @apply text-xl font-krona;
     }
 
     h4 {
@@ -45,6 +45,14 @@
         font-weight: 100;
         src: url(/SignPainter-HouseScript.ttf);
         font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Krona One', sans-serif;
+    }
+
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
     }
 
 }

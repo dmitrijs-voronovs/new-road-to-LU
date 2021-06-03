@@ -29,7 +29,7 @@ export default function Step7() {
       {/* TEXT AND OTHER SECTIONS */}
       <div className="md:mt-20 md:max-w-screen-sm md:mx-auto">
         <div className="text-justify flex flex-col space-y-10 my-10">
-          <p className="text-p4 text-2xl text-center !mt-8 !mb-16">
+          <p className="font-montserrat font-extrabold text-p4 text-2xl text-center !mt-8 !mb-16">
             {t("step7.text.1")}
             <br />
             <br />

@@ -22,22 +22,22 @@ export default function Step1() {
         <img src="/il1@3x.png" />
       </div>
       <div className="p-5 text-center">
-        <h1 className="text-p1 mb-8">{t("step1.title")}</h1>
-        <h2 className="text-p1 mb-8">{t("step1.description")}</h2>
+        <h1 className="text-p1 text-4xl mb-5">{t("step1.title")}</h1>
+        <h2 className="text-p2 md:mb-8">{t("step1.description")}</h2>
       </div>
       {/* TEXT AND OTHER SECTIONS */}
       <div className="md:mt-20 md:max-w-screen-sm md:mx-auto">
         <div className="text-justify flex flex-col space-y-10 my-10">
           <p>{t("step1.text.1")}</p>
           <p>{t("step1.text.2")}</p>
-          <p className="text-p4 text-2xl text-center !mt-20 !mb-16">
-            <p>{t("step1.text.3")}</p>
+          <p>{t("step1.text.3")}</p>
+          <p className="text-p4 text-2xl text-center !mt-16 !mb-6">
+            <p>{t("step1.text.4")}</p>
           </p>
-          <p>{t("step1.text.4")}</p>
-          <p>{t("step1.text.5")}</p>
         </div>
-        <div className="grid">
+        <div className="grid my-16">
           <ProjectCard
+            className="bg-p1 bg-opacity-10"
             text={t("step2.description")}
             heading={t("step2.title")}
             src="/det2@3x.png"

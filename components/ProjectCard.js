@@ -11,9 +11,9 @@ export const ProjectCard = ({ className, path = "/", text, heading, src }) => {
         <div className=" h-[300px] mx-auto">
           <img src={src} className="h-full object-scale-down" alt="text" />
         </div>
-        <div className="flex flex-col pt-5 my-auto text-center">
-          <h3>{heading}</h3>
-          <p>{text}</p>
+        <div className="flex flex-col pt-3 my-auto text-center">
+          <h3 className="py-2">{heading}</h3>
+          <p className="opacity-70">{text}</p>
         </div>
       </div>
     </Link>

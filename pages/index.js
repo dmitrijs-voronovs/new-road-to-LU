@@ -13,9 +13,8 @@ export const getStaticProps = async ({ locale }) => ({
 /** eslint-ignore react/react-in-jsx-scope */
 export default function Home() {
   const { t } = useTranslation("common");
-  console.log(t("index.text.3"), t("index.title"));
   return (
-    <div className="">
+    <div>
       <Head>
         <title>{t("index.title")}</title>
       </Head>

@@ -1,10 +1,84 @@
 {
-    "pr1 name": "MYPR111",
-    "pr2 name": "MYPR222",
-    "pr3 name": "MYPR333",
     "author": "Created by Dmitrijs Voronovs | dv18034",
-    "title-index": "Mans jaunais ceļš no mājām uz Latvijas Universitāti",
-    "text-index": {
-        "a1": "2 gadus katru dienu apmeklējot universitāti, es izstaigāju vairāk nekā vienu apavu pāri. Es pamatīgi gatavojos trešajam gadam, rūpīgi atlasīju jaunus augstas stiprības apavus, taču šoreiz tie man nebija noderīgi ..."
+    "viss": "That's it",
+    "title-index": "My new journey from home to the University of Latvia",
+    "index": {
+        "title": "My new journey from home to the University of Latvia",
+        "description": "How it all began",
+        "text": {
+            "1": "for 2 years every day visiting the university, I walked more than one pair of shoes. I thoroughly prepared for the third year, carefully selected new high-strength shoes, but this time they were not useful to me ...",
+            "2": "the third year was very important in my endless journey from home to university and from university to home. Covid made me think not only about whether to go to university or not, but also about a more global issue: ",
+            "3": "is there any sense in leaving home?",
+            "4": "I completely rethought the last few years of my life, especially the aspect of moving from home to university, and decided to share my new, completely unique movement strategy.",
+            "5": "it brings me incredible joy and endless energy for the whole day, but it also has its minuses. Meet me-my new way from home to the University of Latvia!"
+        }
+    },
+    "step1": {
+        "title": "Still hanging till these days",
+        "description": "First step",
+        "text": {
+            "1": "Kovids significantly shortened my way to the University of Latvia. But the chandelier covid's does not interfere - as it hangs, so will continue to hang.",
+            "2": "in fact, as far as I know, this is an old Soviet chandelier, which is already 25 years old, so it is even older than me. But I am tormented by one single question: is she really tired of existence? I can't imagine what a person will feel after 25 years of sitting or standing in one place without the right and the ability to move or change location. She does not care about any conditions, this lamp has already experienced repairs, floods and fire. I think it will not be difficult to outlive Kovid, either.",
+            "3": "what I will say now will sound funny and strange, but to be honest, I even feel sorry for her. And yes, since this lamp is the first thing I see when I wake up since I was 21, I have developed a habit of greeting him. Do not think that I'm crazy , but it seems to me that everything in my house has changed, except for this old lamp, so I consider him a full-fledged inhabitant of my apartment and a member of the family, and any member of the family deserves respect and \"good morning\" in the morning, as far as it would not sound strange...",
+            "4": "so every day I open my eyes, say hello to my old friend and the mood immediately rises."
+        }
+    },
+    "step2": {
+        "title": "Heavy blanket - hard life",
+        "description": "Second step",
+        "text": {
+            "1": "Unfortunately, sometimes it is impossible to get up in the morning. And you may think that this is laziness, but it is not so! All the blame blanket. No, really! She is so heavy that she as if presses me to the bed with all her might and does not want to let me out until the pillow whispers to me:",
+            "2": "\" Dima, stay with me, we see so little, I miss you very much . Stay here a little longer. \"",
+            "3": "Well, how can you not succumb to Temptation, where to take the strength to tear off this unfortunate 100-kilogram blanket?",
+            "4": "\" ay\", - I think. \"I'll sleep a little more\", and after 15 minutes, finally, having collected all the motivation and willpower , I raise my head from the pillow and tear off the heavy blanket. What insidious genius made them so heavy ??? How can I get up in the morning without getting a portion of vitamins and nutrients from, for example, porridge, which I like to eat for breakfast? Heavy blanket-hard life."
+        }
+    },
+    "step3": {
+        "title": "The first challenge",
+        "description": "Third step",
+        "text": {
+            "1": "a blanket is not the worst thing that happens and can happen to me in the morning. Another everyday and sometimes unbearably difficult task is to put on sneakers. To me, they sometimes seem so small that it takes two to five minutes to find them, and sometimes they seem to disappear or evaporate altogether.",
+            "2": "then it turns out that at night the boy (that's my dog) was playing with them, and I find them in another room. At night, Boyne is very bored, because during the day she eats and sleeps a lot, and at night she plays with my belongings, because this is the most suitable time to stay awake. Right?",
+            "3": "however, when I am very sleepy, hungry and angry that I was awakened, it can be very difficult to get my feet in slippers. This is a small, but annoying, routine problem that drives me out of my mind, and so when I still manage to impose them after many vain attempts, my happiness knows no bounds. I learn to enjoy the little things in this life, because it's much easier to live like this."
+        }
+    },
+    "step4": {
+        "title": "They want to kill me",
+        "description": "Fourth step",
+        "text": {
+            "1": "Finally I got to open my eyes, get out of bed, put on or find slippers after a night trip, and still half asleep, trying to figure out what's what, I slowly go to the window and slowly, pondering every move, open the curtains. Very bright sunlight every time treacherously dazzles me for a couple of seconds. I literally do not see anything, as if looking into the void. At such moments, quite strange thoughts flashed into my head:",
+            "2": "who invented to get up in the morning? Is it really impossible to study and work on the second shift? When Will vision return? Is the sun trying to kill me?",
+            "3": "and it seems, I slept soundly, did nothing bad, but still someone had to dazzle me. By the way, after my eyes got used to the piercing rays of the Sun, I thank the universe, the cosmos and the people around me for giving me the strength and energy to wake up in the morning and see the Daily Light, because it gives life to all living things and meaning to all events. And despite the fact that sometimes it seems to me that the sun is my worst enemy in the morning, I am extremely grateful to him."
+        }
+    },
+    "step5": {
+        "title": "Landing",
+        "description": "Fifth step",
+        "text": {
+            "1": "If you thought that this cruel morning would cease to jeer at me - no !!! The hardest task is ahead-landing.",
+            "2": "I slept so well in a crib, dreamed of my former life, and here I am offered to sit. Not an hour, not two, but a whole day!! I imagined myself as a soldier who jumps with a parachute from an airplane with the task of landing, in a neoktist tree and remembering to open a parachute.",
+            "3": "agree that this sounds very bold and scary? This is how I feel when I sit down at my desk: I am overwhelmed by a sense of ignorance and a thirst for digital and Kovid adventures on the internet! I am like a soldier who, before leaping from an airplane, ponders his entire landing and future mission to the smallest detail. Every student is a soldier who unquestionably fulfills his missions and tasks - homework-driven by a sense of Duty, Respect and a desire for change - a better life.",
+            "4": " all these trials are just small pieces from a huge mission - \" happy life\", where one can not do without effort."
+        }
+    },
+    "step6": {
+        "title": "Tasty reward",
+        "description": "Sixth step",
+        "text": {
+            "1": "as a prize for a good landing, I get an incredibly tasty breakfast. The amount of breakfast directly depends on the quality of the landing, technical performance, breathing and mood.",
+            "2": "breakfast includes pasta, peas and tomatoes. It comes with a piece of bread and butter. For the sake of such a breakfast, I'm ready to go through all the morning trials! Sometimes, of course, I might not hear the alarm and change my hours, and on the way, in a hurry and confusion, I forgot to eat breakfast and take the first meal only for lunch, but this happens extremely rarely when I sit and study until late.",
+            "3": "I think all people in the world know that breakfast is very important, it is he who gives you energy for the whole day to study and work. If you do not eat breakfast, then do not expect a productive day from yourself. It is important for me that breakfast has a lot of carbohydrates and a lot of protein. For example: eggs, beans, avocados or toasts with meat. I also have a fast metabolism, so a hearty breakfast is extremely necessary for the body of a young guy. For me, food is a great way for me to reward and motivate myself! Especially in the morning, when the long working day is just beginning. This is the best reward!"
+        }
+    },
+    "step7": {
+        "title": "Final boss",
+        "description": "Last step",
+        "text": {
+            "1": "- and that's all? Is my exciting morning trip to the University of Latvia over?",
+            "2": "- No, wait! If geographically I'm not going to move anymore-there are no audiences at home, the virtual and digital journey continues.",
+            "3": "every morning, as a ritual, I sneak into the study, view items, check the mail if there are any new important messages or discount coupons in my favorite restaurant, turn on MS Teams, go to an exciting (or not) lecture, and listen to the teacher (or not).",
+            "4": "I also took exercise books and wrote down important information, because with this amount of study and work, Memory has objectively deteriorated.Yes, and so until the end of the day. Lecture, record, lecture, laboratory work, homework. Oh yes, I still decided a year and a half ago to work as an IT specialist, so as not to get up from the chair after landing, because during covid I have my own Cabinet at home. By the way, it turned out very convenient and ergonomic! Unlike the office, no one touches you at home, you have a cozy and inviting atmosphere for work and unused new high-strength shoes. Therefore, if there is a choice: to work at home or in the office, I highly recommend not to leave your cozy and warm nest.",
+            "5": "Do you want to know what journey awaits me tomorrow? Press the Zem button!!!!"
+        }
     }
 }

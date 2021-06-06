@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="flex flex-col md:flex-row w-full max-w-screen-2xl md:pb-5 md:mt-16 mx-auto">
         <div className="p-5 text-center m-auto">
-          <h1 className="text-p1 pb-8 md:text-4xl md:px-5 lowercase">
+          <h1 className="text-p1 pb-8 md:text-4xl md:px-5 lowercase break-words">
             {t("index.title")}
           </h1>
         </div>

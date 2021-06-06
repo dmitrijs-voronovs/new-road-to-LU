@@ -23,7 +23,9 @@ export default function Step2() {
         <img src="/il2@3x.png" />
       </div>
       <div className="p-5 text-center">
-        <h1 className="text-p1 text-4xl mb-5">{t("step2.title")}</h1>
+        <h1 className="text-p1 text-4xl mb-5 break-words">
+          {t("step2.title")}
+        </h1>
         <h2 className="text-p2 md:mb-8">{t("step2.description")}</h2>
       </div>
       {/* TEXT AND OTHER SECTIONS */}
